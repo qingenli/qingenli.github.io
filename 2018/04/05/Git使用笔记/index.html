@@ -17,19 +17,20 @@
   
   
   <title>ZeroSay_Blog</title>
-  <meta name="description" content="在网上流浪，寻找远方的梦想">
+  <meta name="description" content="title:git使用笔记 配置个人的用户名称和电子邮件地址：（~/.gitconfig） 12$ git config --global user.name &quot;username&quot;$ git config --global user.email &quot;useremail&quot;  创建Git仓库初始化（在项目目录打开终端） 1$ git init  git status 查看在你上次提交之后是否有修改。">
 <meta name="keywords" content="技术博客,PHP,Python,Linux,Windows,Archlinux,SQL">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:title" content="ZeroSay_Blog">
-<meta property="og:url" content="http://zerosay.com/index.html">
+<meta property="og:url" content="http://zerosay.com/2018/04/05/Git使用笔记/index.html">
 <meta property="og:site_name" content="ZeroSay_Blog">
-<meta property="og:description" content="在网上流浪，寻找远方的梦想">
+<meta property="og:description" content="title:git使用笔记 配置个人的用户名称和电子邮件地址：（~/.gitconfig） 12$ git config --global user.name &quot;username&quot;$ git config --global user.email &quot;useremail&quot;  创建Git仓库初始化（在项目目录打开终端） 1$ git init  git status 查看在你上次提交之后是否有修改。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-05T10:18:06.572Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ZeroSay_Blog">
-<meta name="twitter:description" content="在网上流浪，寻找远方的梦想">
+<meta name="twitter:description" content="title:git使用笔记 配置个人的用户名称和电子邮件地址：（~/.gitconfig） 12$ git config --global user.name &quot;username&quot;$ git config --global user.email &quot;useremail&quot;  创建Git仓库初始化（在项目目录打开终端） 1$ git init  git status 查看在你上次提交之后是否有修改。">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://zerosay.com/index.html">
+  <link rel="canonical" href="http://zerosay.com/2018/04/05/Git使用笔记/index.html">
   
     <link rel="alternate" href="/atom.xml" title="ZeroSay_Blog" type="application/atom+xml">
   
@@ -274,61 +275,136 @@
 </aside>
 
   
-  <main class="main" role="main">
   
-  <div class="content article-list">
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-Git使用笔记" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
+    <div class="article-header">
+      
+      <div class="article-meta">
+        <span class="article-date">
     <i class="icon icon-calendar-check"></i>
 	<a href="/2018/04/05/Git使用笔记/" class="article-date">
-	  <time datetime="2018-04-05T10:18:18.109Z" itemprop="datePublished">4月 5</time>
+	  <time datetime="2018-04-05T10:18:18.109Z" itemprop="datePublished">2018-04-05</time>
 	</a>
 </span>
-    
-    
+        
+        
 
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/04/05/Git使用笔记/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
+        
 
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/01/hello-world/">Hello World</a>
-    </h1>
-  
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/04/05/Git使用笔记/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry markdown-body" itemprop="articleBody">
+      
+        <hr>
+<h2 id="title-git使用笔记"><a href="#title-git使用笔记" class="headerlink" title="title:git使用笔记"></a>title:git使用笔记</h2><ol>
+<li><p>配置个人的用户名称和电子邮件地址：（~/.gitconfig）</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"username"</span></span><br><span class="line">$ git config --global user.email <span class="string">"useremail"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建Git仓库初始化（在项目目录打开终端）</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>git status 查看在你上次提交之后是否有修改。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>git add 跟踪仓库文件</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>本地仓库关联远程仓库</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add origin https://git.coding.net/zerones/tp5_o2o.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>git commit 提交文件到仓库</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m <span class="string">"提示信息"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>把本地库的所有内容推送到<strong>Coding</strong>远程库上</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure>
+<p>备注:  origin:远程仓库名字; master:分支;</p>
+<p>注意:我们第一次push的时候,加上<strong>-u</strong>参数,Git就会把本地的master分支和远程的master分支进行关联起来,我们以后的push操作就不再需要加上<strong>-u</strong>参数了</p>
+</li>
+<li><p>输入coding账号密码后上传成功</p>
+<h3 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h3></li>
+</ol>
 
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://zerosay.com/2018/04/05/Git使用笔记/" title="" target="_blank" rel="external">http://zerosay.com/2018/04/05/Git使用笔记/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/qingenli" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/qingenli" target="_blank"><span class="text-dark">Zerones</span><small class="ml-1x">技术爱好者</small></a></h3>
+        <div>在网上流浪，寻找远方的梦想。</div>
+      </div>
+    </figure>
   </div>
+</div>
+
+
+    </div>
+  </article>
   
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2018/04/01/hello-world/" class="article-date">
-	  <time datetime="2018-04-01T10:12:43.168Z" itemprop="datePublished">4月 1</time>
-	</a>
-</span>
     
-    
+  <section id="comments">
+  	
+       
+    <div id="uyan_frame"></div>
 
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/04/01/hello-world/#comments" class="article-comment-link">评论</a></span>
     
-  </p>
-</article>
+  </section>
 
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2018/04/01/hello-world/" title="Hello World"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
     
   </div>
+  </div>
+</nav>
+  
 
-   
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -389,6 +465,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
     
+    
+        
+    
+    <script defer type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=[object Object]"></script>
+
+
     
     
 

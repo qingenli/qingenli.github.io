@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zerosay.com/"/>
-  <updated>2018-04-01T10:12:43.168Z</updated>
+  <updated>2018-04-05T10:18:06.572Z</updated>
   <id>http://zerosay.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://zerosay.com/2018/04/05/Git%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>http://zerosay.com/2018/04/05/Git使用笔记/</id>
+    <published>2018-04-05T10:18:18.109Z</published>
+    <updated>2018-04-05T10:18:06.572Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="title-git使用笔记"><a href="#title-git使用笔记" class="headerlink" title="title:git使用笔记"></a>title:git使用笔记</h2><ol><li><p>配置个人的用户名称和电子邮件地址：（~/.gitconfig）</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"username"</span></span><br><span class="line">$ git config --global user.email <span class="string">"useremail"</span></span><br></pre></td></tr></table></figure></li><li><p>创建Git仓库初始化（在项目目录打开终端）</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure></li><li><p>git status 查看在你上次提交之后是否有修改。</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br></pre></td></tr></table></figure></li><li><p>git add 跟踪仓库文件</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br></pre></td></tr></table></figure></li><li><p>本地仓库关联远程仓库</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add origin https://git.coding.net/zerones/tp5_o2o.git</span><br></pre></td></tr></table></figure></li><li><p>git commit 提交文件到仓库</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m <span class="string">"提示信息"</span></span><br></pre></td></tr></table></figure></li><li><p>把本地库的所有内容推送到<strong>Coding</strong>远程库上</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure><p>备注:  origin:远程仓库名字; master:分支;</p><p>注意:我们第一次push的时候,加上<strong>-u</strong>参数,Git就会把本地的master分支和远程的master分支进行关联起来,我们以后的push操作就不再需要加上<strong>-u</strong>参数了</p></li><li><p>输入coding账号密码后上传成功</p><h3 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h3></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;h2 id=&quot;title-git使用笔记&quot;&gt;&lt;a href=&quot;#title-git使用笔记&quot; class=&quot;headerlink&quot; title=&quot;title:git使用笔记&quot;&gt;&lt;/a&gt;title:git使用笔记&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;配置个人的用户名称和电子
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
